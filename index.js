@@ -11,4 +11,5 @@ app.use("/home", home);
 
 // connection
 const port = process.env.PORT || 9001;
+console.log(port);
 app.listen(port, () => console.log(`Listening to port ${port}`));
